@@ -16,7 +16,5 @@ public class Main {
         exporter2.setList(list1);
         exporter1.export();
         exporter2.export();
-
-
     }
 }

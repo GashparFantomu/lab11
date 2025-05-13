@@ -20,7 +20,6 @@ public class Exporter {
                 writer.write(person.toString());
                 writer.newLine();
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }

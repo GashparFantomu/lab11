@@ -13,5 +13,4 @@ public class ExportConfig {
     public void setFilename(String filename) {
         this.fileName = filename;
     }
-
 }
