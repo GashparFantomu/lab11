@@ -1,7 +1,5 @@
 public class ExportConfig {
-    String fileName;
-
-    public ExportConfig() {}
+     private final String fileName;
 
     public ExportConfig(String fileName) {
         this.fileName = fileName;
@@ -9,8 +7,5 @@ public class ExportConfig {
 
     public String getFileName() {
         return fileName;
-    }
-    public void setFilename(String filename) {
-        this.fileName = filename;
     }
 }
